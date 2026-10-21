@@ -1,28 +1,26 @@
-# Linux System Health Report
+# DevOps Learning Portfolio
 
-## Objective
-Collect basic Linux system information for a simple health report.
+## About
+This repository documents my hands-on journey learning DevOps through small, practical projects.
 
-## Information collected
-- Number of available processing units
-- Memory and swap usage
-- Root filesystem disk usage
+Each project focuses on building skills, practicing commands, troubleshooting issues, and documenting what I learn.
 
-## Commands used
-- `nproc`
-- `free -h`
-- `df -h /`
-- `cat`
-- `wc -l`
+## Projects
 
-## Generate the report
-Run these commands from the project directory:
+| Day | Project | Skills |
+|---|---|---|
+| 01 | [Linux System Health Report](day01-linux-health/README.md) | Linux, Bash commands, Git, GitHub, SSH |
 
-```bash
-nproc > health-report.txt
-free -h >> health-report.txt
-df -h / >> health-report.txt
-```
+## Learning Roadmap
+- Linux and Git/GitHub
+- Docker fundamentals
+- Docker Compose
+- Jenkins CI
+- Kubernetes fundamentals
+- AWS deployment basics
 
-## Project status
-Beginner Linux and Git practice project.
+## Approach
+I build small projects, document the steps, troubleshoot errors, and revisit commands to improve my practical skills.
+
+## Status
+In progress.
