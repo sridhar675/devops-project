@@ -22,3 +22,7 @@ Run these commands from the project directory:
 nproc > health-report.txt
 free -h >> health-report.txt
 df -h / >> health-report.txt
+```
+
+## Project status
+Beginner Linux and Git practice project.
