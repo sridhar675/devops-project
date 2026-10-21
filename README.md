@@ -10,6 +10,7 @@ Each project focuses on building skills, practicing commands, troubleshooting is
 | Day | Project | Skills |
 |---|---|---|
 | 01 | [Linux System Health Report](day01-linux-health/README.md) | Linux, Bash commands, Git, GitHub, SSH |
+| 02 | [Run Nginx Using Docker](day02-docker-nginx/README.md) | Docker, Nginx, containers, port mapping |
 
 ## Learning Roadmap
 - Linux and Git/GitHub
