@@ -12,6 +12,7 @@ Each project focuses on building skills, practicing commands, troubleshooting is
 | 01 | [Linux System Health Report](day01-linux-health/README.md) | Linux, Bash commands, Git, GitHub, SSH |
 | 02 | [Run Nginx Using Docker](day02-docker-nginx/README.md) | Docker, Nginx, containers, port mapping |
 | 03 | [Build a Custom Docker Image](day03-custom-docker-image/README.md) | Dockerfile, Docker images, containers, Nginx, port mapping |
+| 04 | [Docker Volumes and Persistent Data](day04-docker-volume/README.md) | Docker volumes, persistent data, container lifecycle |
 
 ## Learning Roadmap
 - Linux and Git/GitHub
