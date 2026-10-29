@@ -13,6 +13,8 @@ Each project focuses on building skills, practicing commands, troubleshooting is
 | 02 | [Run Nginx Using Docker](day02-docker-nginx/README.md) | Docker, Nginx, containers, port mapping |
 | 03 | [Build a Custom Docker Image](day03-custom-docker-image/README.md) | Dockerfile, Docker images, containers, Nginx, port mapping |
 | 04 | [Docker Volumes and Persistent Data](day04-docker-volume/README.md) | Docker volumes, persistent data, container lifecycle |
+| Day 05 | [Jenkins CI Fundamentals](day05-jenkins-ci/README.md) | Jenkins, Docker, GitHub, Freestyle Jobs, CI |
+| Day 06 | [Jenkins Basics](day06-jenkins-basics/README.md) | Jenkins, Shell Scripting, Build Parameters, Environment Variables |
 
 ## Learning Roadmap
 - Linux and Git/GitHub
