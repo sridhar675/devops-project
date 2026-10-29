@@ -58,15 +58,33 @@ APP_NAME=nginx JOB_NAME=day06-jenkins-basics BUILD_NUMBER=1 ./jenkins-info.sh
 
 The script displayed the supplied values and completed validation successfully.
 
-## Key Concepts Learned
 
-- Bash shell scripts
-- Environment variables
-- Default values in Bash parameter expansion
-- Executable file permissions
-- Command availability checks
-- Exit statuses
+## 5. Execute the Script in Jenkins
+
+Created a Freestyle job named `day06-jenkins-basics` and configured it to retrieve the project from GitHub.
+
+The job uses the `APP_NAME` string parameter to accept an application name when starting a build.
+
+### Build Results
+
+| Build | APP_NAME | Result |
+|---|---|---|
+| Build 1 | `nginx` | SUCCESS |
+| Build 2 | `custom-app` | SUCCESS |
+
+Both builds displayed the Jenkins job name, build number, application name, and build date. The script also verified that the `date` command was available.
+
+### Key Concepts Learned
+
+- Jenkins Freestyle jobs
+- GitHub source code checkout
+- Build parameters
+- Jenkins environment variables
+- Bash scripts executed by Jenkins
+- Build results and console output
 
 ## Outcome
 
-Created and tested a reusable Jenkins build-report script. The next step is to configure Jenkins to execute this script and supply `APP_NAME` as a build parameter.
+Successfully created and tested a reusable Jenkins job that executes a Bash script using a configurable application name. Both test builds completed successfully.
+
+**Next step:** Practise the Jenkins and GitHub CI workflow, then learn Jenkins Pipeline using a `Jenkinsfile`.
